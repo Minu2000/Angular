@@ -40,3 +40,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+flask-server/.env
+__pycache__
+package-lock.json
+package.json
