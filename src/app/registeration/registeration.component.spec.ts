@@ -19,5 +19,3 @@ describe('RegisterationComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-//hi
-// how are you
