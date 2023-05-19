@@ -1,5 +1,7 @@
-.container {
+
+   .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -17,4 +19,6 @@
   .form-field {
     margin-bottom: 16px;
   }
-  
+  .form-heading {
+    text-align: center;
+  }
