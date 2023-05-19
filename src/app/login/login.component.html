@@ -1,14 +1,18 @@
 <div class="container">
     <h2>Login Form</h2>
-    <form class="form">
+    <form class="form" (ngSubmit)="login()">
+      <mat-form-field class ="form-field">
+        <mat-label>UserName</mat-label>
+        <input matInput placeholder="Enter your name" [(ngModel)]="username" name="username" required/>
+      </mat-form-field>
       <mat-form-field class="form-field">
         <mat-label>Email</mat-label>
-        <input matInput placeholder="Enter your email" />
+        <input matInput placeholder="Enter your email" [(ngModel)]="email" name ="email"required/>
       </mat-form-field>
   
       <mat-form-field class="form-field">
         <mat-label>Password</mat-label>
-        <input matInput type="password" placeholder="Enter your password" />
+        <input matInput type="password" placeholder="Enter your password" [(ngModel)]="password" name ="password" required/>
       </mat-form-field>
   
       <button mat-raised-button color="primary">Login</button>
